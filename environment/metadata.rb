@@ -1,0 +1,11 @@
+name             'newedenfaces_tutorial_environment'
+maintainer       'Rakesh Patel'
+maintainer_email 'roc@rocpatel.me'
+license          'all_rights'
+description      'Installs/Configures new eden faces tutorial dev environment'
+long_description 'Cookbook to help deploy the dev environment'
+version          IO.read(File.join(File.dirname(__FILE__), 'VERSION')) rescue '0.1.0'
+
+depends 'nodejs'
+depends 'mongodb'
+depends 'git'
